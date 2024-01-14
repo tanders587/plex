@@ -1,0 +1,365 @@
+######################################################
+#                Movie Collections                   #
+######################################################
+templates:
+  collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sort_title: <<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+
+collections:
+
+  300:
+    template: {name: collection}
+    tmdb_collection_details: 125570
+
+  47 Meters:
+    template: {name: collection}
+    tmdb_collection_details: 635922
+
+  Accountant:
+    template: {name: collection}
+    tmdb_collection_details: 870339
+
+  Alien:
+    template: {name: collection}
+    tmdb_collection_details: 
+      - 135416
+      - 8091
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gWFHIY77cRVoBRGERwMHqpD27gc.jpg
+
+  American Pie:
+    template: {name: collection}
+    tmdb_collection_details: 2806
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cNqNmezA9iSeJcPdzMqjfXldV9F.jpg
+
+  Amityville:
+    template: {name: collection}
+    tmdb_collection_details: 397842
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/x80po9MXXNpXAA8OIcqVFR8bfKW.jpg
+
+  Annabelle:
+    template: {name: collection}
+    tmdb_collection_details: 402074
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8ouiyGYcv3E1JPrPrC7pLjxlDhC.jpg
+
+  Austin Powers:
+    template: {name: collection}
+    tmdb_collection_details: 1006
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eDY7mi5asFW39NiAAHEvZYhK1eZ.jpg
+
+  Avatar:
+    template: {name: collection}
+    tmdb_collection_details: 87096
+
+  AVP:
+    template: {name: collection}
+    tmdb_collection_details: 115762
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/13ia6jvN7Qh3kAV0rE06xyRK4Ra.jpg
+
+  Back to the Future:
+    template: {name: collection}
+    tmdb_collection_details: 264
+
+  Bad Boys:
+    template: {name: collection}
+    tmdb_collection_details: 14890
+
+  Butterfly Effect:
+    template: {name: collection}
+    tmdb_collection_details: 52749
+
+  Boondock Saints:
+    template: {name: collection}
+    tmdb_collection_details: 87186
+
+  Cars:
+    template: {name: collection}
+    tmdb_collection_details: 87118
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uq3N2SFj1Y06zA6LzCQPkmBdaaE.jpg
+
+  Conjuring :
+    template: {name: collection}
+    tmdb_collection_details: 313086
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z5VKhNSQKQyxm0co68HAkCqHnmX.jpg
+
+  ConStantine:
+    template: {name: collection}
+    tmdb_collection_details: 1025281
+
+  Despicable Me:
+    template: {name: collection}
+    tmdb_collection_details:
+      - 544669
+      - 86066
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yG4ZgrIinuQJGuFQfXZc1fB2UHN.jpg
+
+  Deadpool:
+    template: {name: collection}
+    tmdb_collection_details: 448150
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fO1fR0YoF9kyZNqtUbym1FRNMEb.jpg
+
+  Divergent:
+    template: {name: collection}
+    tmdb_collection_details: 283579
+
+  Die Hard:
+    template: {name: collection}
+    tmdb_collection_details: 1570
+
+  Equalizer:
+    template: {name: collection}
+    tmdb_collection_details: 523855
+
+  Expendables:
+    template: {name: collection}
+    tmdb_collection_details: 126125
+
+  Fast and the Furious:
+    template: {name: collection}
+    tmdb_collection_details: 9485
+    url_poster: https://theposterdb.com/api/assets/10036
+
+  Fifty Shades of Grey:
+    template: {name: collection}
+    tmdb_collection_details: 344830
+
+  Frozen:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/est781229/lists/frozen-complete-collection?sort=released,desc
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2DdKGQYzE6D7pSvvHvM9FRzTh5r.jpg
+    summary: Frozen features the sisterly love between the fearless optimist Anna, her mysterious sister Elsa and the snowman Olaf.
+
+  Godfather:
+    template: {name: collection}
+    tmdb_collection_details: 230
+
+  Hannibal:
+    template: {name: collection}
+    tmdb_collection_details: 9743
+
+  Hitman's Body Guard:
+    template: {name: collection}
+    tmdb_collection_details: 608101
+
+  Horrible Bosses:
+    template: {name: collection}
+    tmdb_collection_details: 280588
+
+  Independence Day:
+    template: {name: collection}
+    tmdb_collection_details: 304378
+
+  James Bond:
+    template: {name: collection}
+    tmdb_collection_details: 645
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/HORpg5CSkmeQlAolx3bKMrKgfi.jpg
+
+  Jesse Stone:
+    template: {name: collection}
+    tmdb_collection_details: 59235
+
+  Jeepers Creepers:
+    template: {name: collection}
+    tmdb_collection_details: 94899
+
+  Has Fallen:
+    template: {name: collection}
+    tmdb_collection_details: 386534
+
+  Indiana Jones:
+    template: {name: collection}
+    tmdb_collection_details: 84
+    url_poster: https://theposterdb.com/api/assets/53369
+
+  Iron Man:
+    template: {name: collection}
+    tmdb_collection_details: 131292
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4GYYZpt8YiAc3jIPIzRMwPvKtAz.jpg
+
+  Jason Bourne:
+    template: {name: collection}
+    tmdb_collection_details: 31562
+    url_poster: https://theposterdb.com/api/assets/59458
+
+  John Wick:
+    template: {name: collection}
+    tmdb_collection_details: 404609
+    url_poster: https://theposterdb.com/api/assets/16239
+
+  Jurassic Park:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/darkman1498/lists/jurassic-park
+    url_poster: https://theposterdb.com/api/assets/158968
+    summary: An American science fiction adventure film series based on the novel of the same name by Michael Crichton. The films center on the fictional Isla Nublar near Costa Rica in the Central American Pacific Coast, where a billionaire philanthropist and a small team of genetic scientists have created an amusement park of cloned dinosaurs.
+
+  Karate Kid:
+    template: {name: collection}
+    tmdb_collection_details: 8580
+    tmdb_movie: 38575
+
+  Lilo & Stitch:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/shursnap/lists/lilo-stitch?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/28553
+    summary: As Stitch, a runaway genetic experiment from a faraway planet, wreaks havoc on the Hawaiian Islands, he be>
+
+  Marvel Cinematic Universe:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/jawann2002/lists/marvel-cinematic-universe-movies?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/114045
+    url_background: https://images.hdqwalls.com/wallpapers/all-avengers-4k-8m.jpg
+    collection_order: custom
+    summary: The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.
+
+  Matrix:
+    template: {name: collection}
+    tmdb_collection_details: 2344
+    url_poster: https://theposterdb.com/api/assets/147306
+
+  Maze Runner:
+    template: {name: collection}
+    tmdb_collection_details: 295130
+
+  Mission Impossible:
+    template: {name: collection}
+    tmdb_collection_details: 87359
+
+  Pirates of the Caribbean:
+    template: {name: collection}
+    tmdb_collection_details: 295
+    url_poster: https://theposterdb.com/api/assets/71934
+
+  Purge:
+    template: {name: collection}
+    tmdb_collection_details: 256322
+
+  Rambo:
+    template: {name: collection}
+    tmdb_collection_details: 5039
+    url_poster: https://theposterdb.com/api/assets/21241 
+
+  Riddick:
+    template: {name: collection}
+    tmdb_collection_details: 2794
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zoQuZCpLbGXXXqIztANupjpOtEP.jpg
+
+  Rocky and Creed:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/rzepkowski/lists/rocky-creed-movies?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/5907
+    summary: These sport drama films begin by telling the rags to riches American Dream story of Rocky Balboa, an uneducated but kind-hearted working class Italian-American boxer working as a debt collector for a loan shark in the slums of Philadelphia.
+
+  Saw:
+    template: {name: collection}
+    tmdb_collection_details: 656
+    tmdb_movie: 602734
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/a2csOLEuYSPdcroZ2IUaa4teY47.jpg
+
+  Shrek:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/est781229/lists/shrek-complete-collection?sort=released,desc
+    url_poster: https://theposterdb.com/api/assets/27739
+    summary: The fairytale story of a large, strong, solitude-loving, intimidating ogre named Shrek, and his friends.
+
+  Sicario:
+    template: {name: collection}
+    tmdb_collection_details: 496796
+
+  Spider-man Universe:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/james_97/lists/spider-verse
+    url_poster: https://theposterdb.com/api/assets/36892
+    summary: A superhero film series based on the Marvel Comics character Spider-Man. The series is centered on Peter Parker, an academically gifted but socially inept freelance photographer who gets bitten by a genetically modified spider and gains spider-like abilities, all of which he uses to fight crime as a spider-masked vigilante, learning for himself that with great power comes great responsibility.
+
+  Star Wars:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/zorge88/lists/star-wars?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/9569
+    collection_order: custom
+    summary: An epic space-opera theatrical film series, which depicts the adventures of various characters a long time ago in a galaxy far, far away….
+
+  Suicide Squad:
+    template: {name: collection}
+    tmdb_collection_details: 531242
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eLIRUVotnG8yKOibckSvsnnd6Lp.jpg
+
+  Superman:
+    template: {name: collection}
+    tmdb_collection_details: 8537
+
+  Super Troopers:
+    template: {name: collection}
+    tmdb_collection_details: 449462
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lZ41mMVwta960QVhyLvjziffs7a.jpg
+
+ # Teenage Mutant Ninja Turtles:
+ #   template: {name: collection}
+ #   trakt_list: https://trakt.tv/users/darkman1498/lists/teenage-mutant-ninja-turtles?sort=rank,asc
+ #   url_poster: https://theposterdb.com/api/assets/9740/view
+ #   summary: An American superhero film series based on the fictional superhero team of the same name created by Kevin Eastman and Peter Laird. These served as a reboot to the original live-action films.
+
+  Ted:
+    template: {name: collection}
+    tmdb_collection_details: 266672
+
+  Terminator: 
+    template: {name: collection}
+    tmdb_collection_details: 528
+
+  Texas Chainsaw Massacre:
+    template: {name: collection}
+    tmdb_collection_details: 111751
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7hCLurM0JhBFKI4WbD4hg982HaG.jpg
+
+  Tomb Raider:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/bruinschris/lists/tomb-raider?sort=rank,asc
+    url_poster: https://theposterdb.com/api/assets/126105/view
+    radarr_add_missing: true
+    summary: Tomb Raider is a series of action-adventure movies, centering around the adventures of the female fictional British archaeologist Lara Croft
+
+  Top Gun:
+    template: {name: collection}
+    tmdb_collection_details: 531330
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wtpIx0Gsra1IGHH8af5kNK90Xy8.jpg
+
+  Transformers:
+    template: {name: collection}
+    tmdb_collection_details: 8650
+
+  Tron: 
+    template: {name: collection}
+    tmdb_collection_details: 63043
+    radarr_add_missing: true 
+    url_poster: https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cvFlDIfOwhYe4ouAAfdyq9E5zlZ.jpg
+
+  Unbreakable:
+    template: {name: collection}
+    collection_order: custom
+    #radarr_add_missing: false
+    trakt_list:
+      - https://trakt.tv/users/malvado/lists/unbreakable?sort=rank,desc
+    url_poster: https://theposterdb.com/api/assets/9757/view
+    summary: The Unbreakable film franchise is unique for multiple reasons. The first is that the first two films are mostly independent from each other. These two movies feature separate narratives that are unrelated to each other, as they are only connected through a brief moment from the end of the second film. The second reason is that the films each have a dramatically different tone. However, the third film brings both narratives together and brings the franchise to a close.
+
+  Wizarding World:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/strangerer/lists/harry-potter?sort=released,desc
+    url_poster: https://theposterdb.com/api/assets/1634
+    summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on the Harry Potter novel series by J. K. Rowling. A se>
+
+  X-Men:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/bertjj/lists/x-men
+    url_poster: https://theposterdb.com/api/assets/6486
+    summary: A superhero film series about a team of mutant superheroes based on the Marvel Comics superheroes of the same name.
+
+  Zorro:
+    template: {name: collection}
+    tmdb_collection_details: 1657

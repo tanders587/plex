@@ -1,0 +1,73 @@
+collections:
+  Netflix Top 10:
+    flixpatrol_top:
+      platform: netflix
+      location: united_states
+      time_window: last_week
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Netflix
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Netflix.png?raw=true
+    collection_mode: hide
+
+  Disney Plus Top 10:
+    flixpatrol_top:
+      platform: disney
+      location: united_states
+      time_window: last_week
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Disney+
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Disney+.png?raw=true
+    collection_mode: hide
+
+  HBO Max 10:
+    flixpatrol_top:
+      platform: HBO
+      location: united_states
+      time_window: last_week
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_HBO
+    url_poster: https://github.com/tanders587/plex/blob/main/images/HBO%20MAX.png?raw=true
+    collection_mode: hide
+
+  Hulu Top 10:
+    flixpatrol_top:
+      platform: Hulu
+      location: united_states
+      time_window: last_week
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Hulu
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Hulu.png?raw=true
+    collection_mode: hide
+
+  Paramount Top 10:
+    flixpatrol_top:
+      platform: paramount_plus
+      location: united_states
+      time_window: last_week
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Paramount
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Paramount+.png?raw=true
+    collection_mode: hide
+
+  Prime Top 10:
+    flixpatrol_top:
+      platform: amazon_prime
+      location: united_states
+      time_window: last_week
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Prime
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Prime%20Video.png?raw=true
+    collection_mode: hide
+

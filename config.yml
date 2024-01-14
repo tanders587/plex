@@ -1,0 +1,154 @@
+
+libraries:                                      # Library mappings must have a colon (:) placed after them
+  Movies:
+    metadata_path:
+    - file: config/movies/Holiday.yml
+    - file: config/movies/collections.yml
+    - file: config/movies/topmovies.yml
+    - file: config/movies/genres.yml
+    overlay_path:
+    - remove_overlays: true
+    - pmm: resolution
+
+  TV Shows:
+    metadata_path:
+    - file: config/TV.yml
+    - pmm: resolution
+#  TV Shows:
+#    metadata_path:
+#    - file: config/TV.yml
+#      - git: meisnate12/ShowCharts
+#playlist_files:
+#- file: config/Playlists.yml
+#- git: meisnate12/Playlists
+
+settings:                                       # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  asset_depth: 0
+  create_asset_folders: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  sync_mode: sync
+  minimum_items: 0
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  run_again_delay: 2
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: true
+  show_missing_assets: true
+  save_missing: true
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  item_refresh_delay: 0
+  verify_ssl: true
+  playlist_sync_to_users: all
+  custom_repo:
+  prioritize_assets: false
+  show_unconfigured: true
+  playlist_report: true
+  check_nightly: false
+  playlist_exclude_users:
+  default_collection_order:
+
+webhooks:                                       # Can be individually specified per library as well
+  error:
+  run_start:
+  run_end:
+  changes:
+  version:
+  delete:
+plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
+  url: #use your IP and port
+  token: #Get your token
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:                                           # REQUIRED for the script to run
+  apikey: #get an API key
+  language: en
+  cache_expiration: 60
+  region:
+tautulli:                                       # Can be individually specified per library as well
+  url: #usey our tautulli ip and port
+  apikey: #get your API key
+omdb:
+  apikey: #get your API key
+  cache_expiration: 60
+notifiarr:
+  apikey:
+anidb:                                          # Not required for AniDB builders unless you want mature content
+  username:
+  password:
+  language: en
+  client:
+radarr:                                         # Can be individually specified per library as well
+  url: #Use your ip and port
+  token: #get your token/api
+  add_missing: true
+  add_existing: true
+  root_folder_path: /movies
+  monitor: true
+  availability: announced
+  quality_profile: HD-1080p
+  tag:
+  search: true
+  radarr_path:
+  plex_path:
+  upgrade_existing: false
+  ignore_cache: false
+sonarr:                                         # Can be individually specified per library as well
+  url: #Use your ip and port
+  token: #use your API 
+  add_missing: false
+  add_existing: false
+  root_folder_path: /tv/tv
+  monitor: all
+  quality_profile: HD-1080p
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag:
+  search: false
+  cutoff_search: false
+  sonarr_path:
+  plex_path:
+  upgrade_existing: false
+  ignore_cache: false
+trakt:
+  client_id: #get information
+  client_secret: #get information
+  authorization:
+    access_token: #get information
+    token_type: #get information
+    expires_in: #get information
+    refresh_token: #get information
+    scope: public
+    created_at: #get information
+  access_token:
+  token_type:
+  expires_in:
+  refresh_token:
+  scope: public
+  created_at:
+  pin:
+mal:
+  client_id:
+  client_secret:
+  authorization:
+    # everything below is autofilled by the script
+    access_token:
+    token_type:
+    expires_in:
+    refresh_token:

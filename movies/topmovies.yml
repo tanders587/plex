@@ -1,0 +1,68 @@
+collections:
+
+  Netflix Top 10:
+    trakt_list:
+      - https://trakt.tv/users/navino16/lists/netflix-united-states-top10-with-united-kingdom-fallback?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Netflix
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Netflix.png?raw=true
+    collection_mode: hide
+
+
+  Disney Plus Top 10:
+    trakt_list:
+      - https://trakt.tv/users/navino16/lists/disney-united-states-top10-with-united-kingdom-fallback?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Disney+
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Disney+.png?raw=true
+    collection_mode: hide
+
+
+  HBO Max 10:
+    trakt_list:
+      - https://trakt.tv/users/navino16/lists/hbo-united-states-top10-with-united-kingdom-fallback?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_HBO
+    url_poster: https://github.com/tanders587/plex/blob/main/images/HBO%20MAX.png?raw=true
+    collection_mode: hide
+
+  Hulu Top 10:
+    trakt_list:
+      - https://trakt.tv/users/navino16/lists/hulu-united-states-top10-with-united-kingdom-fallback?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Hulu
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Hulu.png?raw=true
+    collection_mode: hide
+
+
+  Paramount Top 10:
+    trakt_list:
+      - https://trakt.tv/users/navino16/lists/paramount-plus-united-states-top10-with-united-kingdom-fallback?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Paramount
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Paramount+.png?raw=true
+    collection_mode: hide
+
+  Prime Top 10:
+    trakt_list:
+      - https://trakt.tv/users/navino16/lists/amazon-prime-united-states-top10-with-united-kingdom-fallback?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Prime
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Prime%20Video.png?raw=true
+    collection_mode: hide
+
+  Starz Top 10:
+    trakt_list:
+      - https://trakt.tv/users/navino16/lists/starz-united-states-top10-with-united-kingdom-fallback?sort=rank,asc
+    collection_order: custom
+    sync_mode: sync
+    sort_title: !01_Starz+
+    url_poster: https://github.com/tanders587/plex/blob/main/images/Starz.png?raw=true
+    collection_mode: hide
+
